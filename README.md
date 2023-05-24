@@ -28,7 +28,9 @@ Ensure that the CSV files (`departments.csv`, `employees.csv`, `salaries.csv`) a
 
 ## Task 3: Debugging
 
-The provided Python script computes different values based on the input number `n`. It calculates the square of `n` if it is less than 10, the factorial of `(n-10)` if it is between 10 and 20, and the sum of integers between 1 and `(n-20)` if `n` is greater than 20.
+1. The provided Python script computes different values based on the input number `n`. It calculates the square of `n` </br>
+2. if it is less than 10, the factorial of `(n-10)` </br>
+3. if it is between 10 and 20, and the sum of integers between 1 and `(n-20)` if `n` is greater than 20.
 
 The bugs in the script have been fixed. Here's the updated code:
 
@@ -50,7 +52,8 @@ compute(n)
 
 
 
-Now, when you run the script and provide an integer input, it will correctly compute the square, factorial, or sum based on the given conditions.
+Now, when you run the script and provide an integer input, it will correctly
+compute the square, factorial, or sum based on the given conditions.
 ```
 
 ---

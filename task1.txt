@@ -1,0 +1,20 @@
+Task 1 SQL Query:- Fetch the top 3 departments along with their name 
+and average monthly salary. Below is the format of the report.
+
+
+Query:-  SELECT  d.NAME AS DEPT_NAME, AVG(s.AMT) AS AVG_MONTHLY_SALARY
+FROM departments d
+JOIN employees e ON d.ID = e.DEPT_ID
+JOIN salaries s ON e.ID = s.EMP_ID
+GROUP BY d.ID, d.NAME
+ORDER BY AVG_MONTHLY_SALARY DESC
+LIMIT 3;
+
+
+output:- It will give you the following output ->
+
+
+     DEPT_NAME  || AVG_MONTHLY_SALARY
+   1. Sales	       7045.161290
+   2. Ops	       6420.000000
+   3. Finance	   6360.317460

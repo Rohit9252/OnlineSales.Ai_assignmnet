@@ -23,7 +23,6 @@ To generate the same report using CSV files as the data source, you can use the 
 To run the script, execute the following command in the terminal:
 
 
-
 Ensure that the CSV files (`departments.csv`, `employees.csv`, `salaries.csv`) are present in the same directory as the script.
 
 ## Task 3: Debugging
